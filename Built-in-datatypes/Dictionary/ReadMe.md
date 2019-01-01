@@ -20,3 +20,19 @@ What we are doing here is we are defining the meaning for a word 'truth' and add
 ```python
 dict_name[key]=value
 ```
+Of course, in programming we won't always be directly assigning values into a dictionary. It is therefore necessary for us to know how to create a dictionary that the end user could input his/her values into. This is done by initialising a dictionary variable and assigning values for it's keys and their respective 'values'. As we already know, initialising an empty dictionary is easily accomplished in two steps: 
+
+STEP 1: 
+```python
+dict_name={}
+```
+Writing the above curly braces are imperative because any other symbol would either mean an error or could imply another datatype like a tuple (parenthesis) or a list [square brackets], which is not what we need right now. 
+
+STEP 2:
+
+Any high level programming language is always not without its special features to simplify the programming experience, one way Python presents its programmatic superiority is by the introducing the concept of functions. The function used for initialising a dictionary variable using the ``` dict()```
+```python
+dict_name=dict()
+```
+
+As a simple as that, we have now learnt to create an empty dictionary using two painless albeit similar methods. 
